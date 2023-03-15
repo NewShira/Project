@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="tests.MenuTest">
+        <methods>
+          <include name="tc25_ABOUTbtn"/>
+          <include name="tc20_login"/>
+          <include name="tc22_CloseMenu"/>
+          <include name="tc26_RESETAPPSTATEbtn"/>
+          <include name="tc28_FacebookLink"/>
+          <include name="tc19_Linkedin"/>
+          <include name="tc21_OpenMenu"/>
+          <include name="tc12_CloseMenu"/>
+          <include name="tc23_ALLITEMSbtn"/>
+          <include name="tc06_RESETAPPSTATEbtn"/>
+          <include name="tc15_ABOUTbtn"/>
+          <include name="tc16_RESETAPPSTATEbtn"/>
+          <include name="tc17_TwitterLink"/>
+          <include name="tc07_TwitterLink"/>
+          <include name="tc14_ALLITEMSbtn"/>
+          <include name="tc27_TwitterLink"/>
+          <include name="tc11_OpenMenu"/>
+          <include name="tc18_FacebookLink"/>
+          <include name="setup"/>
+          <include name="tc08_FacebookLink"/>
+          <include name="tc29_Linkedin"/>
+          <include name="tc13_ALLITEMSbtn"/>
+          <include name="tc24_ALLITEMSbtn"/>
+          <include name="tc10_problemUserLogin"/>
+          <include name="tc05_ABOUTbtn"/>
+          <include name="setupLogin"/>
+          <include name="tc09_Linkedin"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.MenuTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
